@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buyer Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="buyer.css">
 </head>
 <body>
     <!-- Header Section -->
     <?php include 'header.php'; ?>
-
-    <!--logout section-->
+    
     <div class="logout-container">
         <button class="logout-btn">Logout</button>
     </div>
@@ -54,5 +53,3 @@
     </main>
 </body>
 </html>
-
-
