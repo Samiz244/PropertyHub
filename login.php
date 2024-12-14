@@ -11,12 +11,12 @@
 include 'header.php'; 
 ?>
 
-<form class="form">
+<form class="form" action="control_login.php" method="post">
 <label for="username">Username: </label>
 <input type="text" id="username" name="username"/><br>
 
 <label for="password">Password: </label>
-<input type="password" id="password" name="password"/><br>
+<input type="password" id="passwords" name="passwords"/><br>
 
 <input type="submit" value="login" class="submit-btn"/>
 </form>
