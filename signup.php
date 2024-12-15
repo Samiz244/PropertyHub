@@ -19,10 +19,10 @@ include 'header.php';
 <input type="email" id="email" name="email"/><br>
 
 <label for="password">Password: </label>
-<input type="password" id="passwords" name="passwords"/><br>
+<input type="password" id="password" name="password"/><br>
 
 <label for="confirm_password">Verify password: </label>
-<input type="password" id="confirm_passwords" name="confirm_passwords"/><br>
+<input type="password" id="confirm_password" name="confirm_password"/><br>
 
 <label for="account_type">Account type:</label>
 <select id="account_type" name="account_type" class="account_type">

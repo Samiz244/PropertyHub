@@ -28,34 +28,31 @@ if ($conn->connect_error) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $username = $_POST['username'];
-    $password = $_POST['passwords'];
-    $account_type = $_POST['account_type'];
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
+    $account_type =$_POST['account_type'];
 
-    $query = "SELECT * FROM validate_user WHERE username = '$username' AND
-    passwords = '$password'";
+    $command = "SELECT * FROM validate_user WHERE username = '$username' AND password = '$password'";
 
-
-$result = $conn->query($query);
+$result = $conn->query($command);
 
 if ($result->num_rows > 0) {
 
     $row = $result->fetch_assoc();
 
-    if ($row['account_type'] === 'Buyer') {
+    if ($row['account_type'] == 'Buyer') {
         header("Location:buyer.php");
         exit();
-    } elseif ($row['account_type'] === 'Seller') {
+    } elseif ($row['account_type'] == 'Seller') {
         header("Location:sellerpage.php");
         exit();
     }
 } else {
     echo "Wrong username or password.";
 }
-}
-
 
 $conn->close();
+}
 
  ?>   
 </body>

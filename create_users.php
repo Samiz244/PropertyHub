@@ -25,7 +25,7 @@ $sql = "CREATE TABLE validate_user (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     email VARCHAR(100) NOT NULL UNIQUE,
-    passwords VARCHAR(255) NOT NULL,
+    password VARCHAR(50) NOT NULL,
     account_type VARCHAR(50) NOT NULL
 )";
 
