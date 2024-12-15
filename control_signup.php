@@ -29,8 +29,8 @@ if ($conn->connect_error) {
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $email = $_POST['email'];
-    $password = $_POST['passwords'];
-    $confirm_password = $_POST['confirm_passwords'];
+    $password = $_POST['password'];
+    $confirm_password = $_POST['confirm_password'];
     $account_type = $_POST['account_type'];
 
     
@@ -39,13 +39,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    $command = "INSERT INTO validate_user (username, email, passwords, account_type) 
+    $command = "INSERT INTO validate_user (username, email, password, account_type) 
               VALUES ('$username', '$email', '$password', '$account_type')";
 
 if ($conn->query($command) === TRUE) {
     echo "Username and password saved successfully.\n";
     header("Location:login.php");
-    exit();
+
 
 } else {
     echo "Error in saving username and password: " . $conn->error . "\n";
