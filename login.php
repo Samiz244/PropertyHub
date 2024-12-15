@@ -10,6 +10,8 @@
 <?php
 include 'header.php'; 
 ?>
+<?php session_start(); ?>
+
 
 <form class="form" action="control_login.php" method="post">
 <label for="username">Username: </label>
