@@ -11,6 +11,7 @@
     
     <div class="logout-container">
         <button class="logout-btn">Logout</button>
+        <script src="logout.js"></script>
     </div>
     
     <main class="main-container">

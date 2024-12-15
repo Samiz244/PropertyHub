@@ -12,6 +12,7 @@
     
     <div class="logout-container">
         <button class="logout-btn">Logout</button>
+        <script src="logout.js"></script>
     </div>
     <!-- Top Right Section -->
     <div class="top-right-section">
