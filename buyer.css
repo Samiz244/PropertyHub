@@ -161,7 +161,7 @@ body {
     font-size: 14px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .listings-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
