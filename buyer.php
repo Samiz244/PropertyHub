@@ -26,7 +26,7 @@
     <div class="top-right-section">
         <p class="welcome-message">Welcome, <?= htmlspecialchars($username); ?>!</p>
         <div class="search-container">
-            <form action="search.php" method="GET">
+            <form action="search.php" method="post">
                 <input type="text" name="query" placeholder="Search Properties..." class="search-input">
                 <button type="submit" class="search-btn">></button>
             </form>
