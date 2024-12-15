@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+<?php session_start(); ?>
 
 <?php
 include 'header.php'; 
@@ -41,6 +42,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
 
     if ($row['account_type'] == 'Buyer') {
+        $_SESSION['username'] = $username;
         header("Location:buyer.php");
         exit();
     } elseif ($row['account_type'] == 'Seller') {
