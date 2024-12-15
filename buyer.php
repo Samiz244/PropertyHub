@@ -43,7 +43,7 @@
            $dbname = "jmize6"; 
            $conn = new mysqli($host, $user, $pass, $dbname);
            
-            $query = "SELECT id, address, price, image_1 FROM listings";
+            $query = "SELECT id, address, price, image_1 FROM listings WHERE id <= 9";
             $result = $conn->query($query);
             
             if ($result->num_rows > 0) {
@@ -57,7 +57,7 @@
                     echo "<div class='listing-item'>
                             <a href='property.php?id=$id' class='listing-link'>
                                 <div class='image-placeholder'>
-                                    <img src='uploads/$image' alt='Listing Image'>
+                                    <img src= '$image' referrerpolicy='origin'>
                                 </div>
                                 <div class='listing-info'>
                                     <p><strong>Address:</strong> $address</p>

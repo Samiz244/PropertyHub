@@ -14,58 +14,58 @@ if ($conn->connect_error) {
 
 $listings_images = [
     1 => [ // Listing ID 1
-        "image_1" => "https://images.homes.com/listings/116/4463097893-765806681/205-carson-rd-brooks-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/8763097893-765806681/205-carson-rd-brooks-ga-6.jpg",
-        "image_3" => "https://images.homes.com/listings/116/5673097893-765806681/205-carson-rd-brooks-ga-14.jpg",
-        "image_4" => "https://images.homes.com/listings/116/4973097893-765806681/205-carson-rd-brooks-ga-17.jpg",
-        "image_5" => "https://images.homes.com/listings/116/8183097893-765806681/205-carson-rd-brooks-ga-20.jpg",
-        "image_6" => "https://images.homes.com/listings/116/5783097893-765806681/205-carson-rd-brooks-ga-27.jpg"
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/1.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/2.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/3.jpg",
+        "image_4" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/4.jpg",
+        "image_5" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/5.jpg",
+        "image_6" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/6.jpg"
     ],
     2 => [ // Listing ID 2
-        "image_1" => "https://images.homes.com/listings/116/9483359904-743708091/1102-hip-pocket-rd-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/7374359904-743708091/1102-hip-pocket-rd-peachtree-city-ga-6.jpg",
-        "image_3" => "https://images.homes.com/listings/116/4537359904-743708091/1102-hip-pocket-rd-peachtree-city-ga-22.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/21.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/22.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/23.jpg",
     ],
     3 => [ // Listing ID 3
-        "image_1" => "https://images.homes.com/listings/116/9195231004-237781781/306-brooke-wood-dr-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/3106231004-237781781/306-brooke-wood-dr-peachtree-city-ga-8.jpg",
-        "image_3" => "https://images.homes.com/listings/116/4306231004-237781781/306-brooke-wood-dr-peachtree-city-ga-13.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/31.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/32.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/33.jpg",
     ],
     4 => [ // Listing ID 3
-        "image_1" => "https://images.homes.com/listings/116/1342537293-289920381/208-regester-way-peachtree-city-ga-unit-lot-43.jpg",
-        "image_2" => "https://images.homes.com/listings/116/9152537293-289920381/208-regester-way-peachtree-city-ga-unit-lot-43-7.jpg",
-        "image_3" => "https://images.homes.com/listings/116/5062537293-289920381/208-regester-way-peachtree-city-ga-unit-lot-43-16.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/41.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/42.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/43.jpg",
     ],
     5 => [ // Listing ID 3
-        "image_1" => "https://images.homes.com/listings/116/5634421604-185233981/303-the-enclave-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/4934421604-185233981/303-the-enclave-peachtree-city-ga-2.jpg",
-        "image_3" => "https://images.homes.com/listings/116/9244421604-185233981/303-the-enclave-peachtree-city-ga-5.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/51.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/52.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/53.jpg",
     ],
     6 => [ 
-        "image_1" => "https://images.homes.com/listings/116/4802357304-636899781/337-legacy-ln-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/2122357304-636899781/337-legacy-ln-peachtree-city-ga-9.jpg",
-        "image_3" => "https://images.homes.com/listings/116/0182357304-636899781/337-legacy-ln-peachtree-city-ga-12.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/61.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/62.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/63.jpg",
     ],
     7 => [ 
-        "image_1" => "https://images.homes.com/listings/116/8438018493-211184481/102-maple-grove-terrace-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/4458018493-211184481/102-maple-grove-terrace-peachtree-city-ga-6.jpg",
-        "image_3" => "https://images.homes.com/listings/116/3658018493-211184481/102-maple-grove-terrace-peachtree-city-ga-7.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/71.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/72.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/73.jpg",
     ],
     8 => [
-        "image_1" => "https://images.homes.com/listings/116/8190349783-312011081/12-fairway-ln-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/9390349783-312011081/12-fairway-ln-peachtree-city-ga-6.jpg",
-        "image_3" => "https://images.homes.com/listings/116/4590349783-312011081/12-fairway-ln-peachtree-city-ga-9.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/81.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/82.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/83.jpg",
     ],
     9 => [ 
-        "image_1" => "https://images.homes.com/listings/116/7896548683-257778771/312-summer-place-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/5207548683-257778771/312-summer-place-peachtree-city-ga-4.jpg",
-        "image_3" => "https://images.homes.com/listings/116/4807548683-257778771/312-summer-place-peachtree-city-ga-10.jpg",
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/91.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/92.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/93.jpg",
     ],
     0 => [ 
-        "image_1" => "https://images.homes.com/listings/116/6680031604-860733981/126-braelinn-ct-peachtree-city-ga.jpg",
-        "image_2" => "https://images.homes.com/listings/116/7190031604-860733981/126-braelinn-ct-peachtree-city-ga-4.jpg",
-        "image_3" => "https://images.homes.com/listings/116/5790031604-860733981/126-braelinn-ct-peachtree-city-ga-10.jpg",
-        "image_4" => "https://images.homes.com/listings/116/6001031604-860733981/126-braelinn-ct-peachtree-city-ga-13.jpg"
+        "image_1" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/101.jpg",
+        "image_2" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/102.jpg",
+        "image_3" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/103.jpg",
+        "image_4" => "https://codd.cs.gsu.edu/~jmize6/PropertyHub/images/104.jpg"
     ],
     
 ];

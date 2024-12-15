@@ -9,15 +9,10 @@
 <body>
 
     <?php include 'header.php'; ?>
-
    
     <div class="logout-container">
         <button class="logout-btn">Logout</button>
     </div>
-
-    
-    
-   
     <?php
     $host = "localhost"; 
     $user = "jmize6"; 
@@ -41,12 +36,11 @@
             <p class="property-address">Address: <?php echo $row['address']; ?></p>
             <p class="property-price">Asking Price: $<?php echo number_format($row['price']); ?></p>
         </div>
-
         <div class="property-images">
             <?php for ($i = 1; $i <= 6; $i++) {
                 if (!empty($row["image_$i"])) {
                     echo '<div class="image-placeholder">
-                              <img src="' . $row["image_$i"] . '" alt="Property Image">
+                              <img src="' . $row["image_$i"] . '" referrerpolicy="origin" alt="Property Image">
                           </div>';
                 }
             } ?>
