@@ -38,9 +38,9 @@
         <div class="listings-container">
             <?php
            $host = "localhost"; 
-           $user = "jmize6"; 
-           $pass = "jmize6"; 
-           $dbname = "jmize6"; 
+           $user = "mali50"; 
+           $pass = "mali50"; 
+           $dbname = "mali50"; 
            $conn = new mysqli($host, $user, $pass, $dbname);
            
             $query = "SELECT id, address, price, image_1 FROM listings WHERE id <= 9";
